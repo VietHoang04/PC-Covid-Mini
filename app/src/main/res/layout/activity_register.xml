@@ -79,7 +79,8 @@
                     android:background="#F3FFFFFF"
                     android:hint="@string/date_of_birth"
                     android:textSize="18sp"
-                    android:textStyle="italic" />
+                    android:textStyle="italic"
+                    android:inputType="datetime"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -94,7 +95,8 @@
                     android:background="#F3FFFFFF"
                     android:hint="@string/social_insurance"
                     android:textSize="18sp"
-                    android:textStyle="italic" />
+                    android:textStyle="italic"
+                    android:inputType="number"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <LinearLayout
@@ -114,7 +116,8 @@
                         android:background="#F3FFFFFF"
                         android:hint="@string/national_id"
                         android:textSize="18sp"
-                        android:textStyle="italic" />
+                        android:textStyle="italic"
+                        android:inputType="number"/>
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -155,7 +158,8 @@
                     android:background="#F3FFFFFF"
                     android:hint="@string/phone_number"
                     android:textSize="18sp"
-                    android:textStyle="italic" />
+                    android:textStyle="italic"
+                    android:inputType="number"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -170,7 +174,8 @@
                     android:background="#F3FFFFFF"
                     android:hint="@string/email"
                     android:textSize="18sp"
-                    android:textStyle="italic" />
+                    android:textStyle="italic"
+                    android:inputType="textEmailAddress"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
